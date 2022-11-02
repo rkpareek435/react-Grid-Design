@@ -1,6 +1,6 @@
 {
-  "homepage": "https://rkpareek435.github.io/Grid-react",
   "name": "card",
+  "homepage": "https://rkpareek435.github.io/react-Grid-Design",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
